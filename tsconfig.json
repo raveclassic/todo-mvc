@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "target": "ES2015",
+    "module": "commonjs",
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "moduleResolution": "Node",
+    "outDir": "dist",
+    "jsx": "react",
+    "incremental": true
+  },
+  "include": ["."],
+  "exclude": ["dist", "node_modules", "coverage"]
+}
